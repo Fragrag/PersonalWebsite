@@ -8,8 +8,6 @@ dl, dd, ol, ul, figure {
     padding: 0;
 }
 
-
-
 /** Variables **********************************************/
 $base-font-family:              Helvetica, sans-serif;
 $base-line-height:              1.5em;
@@ -30,14 +28,14 @@ $blue: #2698BA;
 $green: #11D68B;
 $lime_green: #B7D12A;
 $purple: #B509AC;
-
+$grey: rgb(90, 90, 90);
 
 $grey-color-dark: #333;   /* footer */
 $grey-color-light: #ddd;  /* navigation bar border */
 $text-color:     #666;
 
 /* Set theme color *************************/
-$theme-color:   $red;
+$theme-color: $grey;
 
 
 /************************************************************/
@@ -75,6 +73,7 @@ hr{
     /* Inset, by Dan Eden */
     border: 0;
     height: 0;
+    padding-top: 25pt;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 

@@ -2,13 +2,6 @@
 layout: default
 ---
 
-<div class="header-bar">
-  <h1>Haryo Sukmawanto</h1>
-  <br/>
-  <hr>
-  <br/>
-</div>
-
 {% for project in site.projects %}
 
 {% if project.redirect %}
@@ -21,7 +14,7 @@ layout: default
         <div class="thumbnail blankbox"></div>
         {% endif %}    
         <span>
-            <h1>{{ project.title }}</h1>
+            <h2>{{ project.title }}</h2>
             <br/>
             <p>{{ project.description }}</p>
         </span>
@@ -39,7 +32,7 @@ layout: default
         <div class="thumbnail blankbox"></div>
         {% endif %}    
         <span>
-            <h1>{{ project.title }}</h1>
+            <h2>{{ project.title }}</h2>
             <br/>
             <p>{{ project.description }}</p>
         </span>
