@@ -3,3 +3,4 @@ _site
 .DS_store
 /.jekyll-cache
 /.vs
+/_oldsite

@@ -14,7 +14,7 @@ plugins: [jekyll-paginate]
 # Build settings
 markdown: kramdown
 
-highlighter: rouge
+highlighter: none
 
 # Pagination
 paginate: 15
