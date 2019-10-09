@@ -2,7 +2,7 @@
 layout: default
 ---
 
-{% for project in site.projects %}
+{% for project in site.projects reversed %}
 
 {% if project.redirect %}
 <div class="project">
@@ -34,7 +34,7 @@ layout: default
         <span>
             <h2>{{ project.title }}</h2>
             <br/>
-            <p>{{ project.description }}</p>
+            <p>{{ project.year }}</p>
         </span>
         </a>
     </div>

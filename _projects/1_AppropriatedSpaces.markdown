@@ -1,0 +1,17 @@
+---
+layout: project
+title: Appropriated Spaces
+year: 2014
+description: 
+img: /img/projects/appropriatedspaces/appropriatedspaces-2.jpg
+---
+
+<hr>
+
+<div>
+{% for image in site.static_files %}
+    {% if image.path contains '/img/projects/appropriatedspaces' %}
+        <img class="projectimage" src="{{ site.baseurl }}{{ image.path }}"/>
+    {% endif %}
+{% endfor %}
+</div>

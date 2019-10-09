@@ -1,6 +1,8 @@
 ---
 layout: article
-title: Breaking News - A Post Mortem
+title: Breaking News
+description: A post mortem of a failed game
+tech: (Unreal Engine 4, Substance Designer, Game Design)
 date: 2019-07-17 18:00:00
 ---
 

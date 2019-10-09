@@ -1,7 +1,8 @@
 ---
 layout: project
 title: 35.5056N 36.6013E
-description: 
+year: 2018
+description: single channel; real-time projection
 img: /img/projects/35n36e/capture.png
 ---
 

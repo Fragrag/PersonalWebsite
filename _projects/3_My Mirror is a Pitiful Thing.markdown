@@ -1,6 +1,7 @@
 ---
 layout: project
 title: My Mirror is a Pitiful Thing
+year: 2014-2017
 description: 
 img: /img/projects/mymirror/koblen7-edit.jpg
 highlighter: none

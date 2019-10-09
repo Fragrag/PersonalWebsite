@@ -4,26 +4,20 @@ title: about
 permalink: /about/
 ---
 
-<img class="col one right" src="/img/prof_pic.jpg">
+Born 17 July, 1992 in Bandung, Indonesia
 
-<br/>
-Write your biography here. Tell the world about yourself. Link to your favorite <a href="http://reddit.com" target="blank">subreddit</a>. You can put a picture in, too. The code is already in, just name your picture "prof_pic.jpg" and put it in the img folder. 
+Currently living in Ghent, Belgium.
 
-Link to your social media connections, too. This theme is set up to use <a href="http://fortawesome.github.io/Font-Awesome/" target="blank">Font Awesome icons</a>, like the ones below. Add your facebook, twitter, linkedin, or just disable all of them. 
+- **MAP #65: Notion of Nation.** Ghent, Belgium. June, 2017
+- **Where Does It Hurt?.** Ghent, Belgium. March, 2017
+- **We Hate It When Our Friends Become Successful.** Ghent, Belgium. January, 2017
+- **Flux: The Full Picture/Het Volle Beeld.** Antwerp, Belgium, 2010
 
-
-<br/>
 <hr/>
-<br/>
-<span class="contacticon center">
-	<a href="mailto:you@example.com"><i class="fa fa-envelope-square"></i></a>
-	<a href="https://github.com" target="_blank"><i class="fa fa-github-square"></i></a>
-	<a href="https://www.linkedin.com" target="_blank"><i class="fa fa-linkedin-square"></i></a>
-	<a href="http://tumblr.com" target="_blank"><i class="fa fa-tumblr-square"></i></a>
-	<a href="https://twitter.com" target="_blank"><i class="fa fa-twitter-square"></i></a>
-</span>
 
-<div class="col three caption">
-	You can even add a little note about which of these is the best way to reach you.
-</div>
+<span class="contacticon center">
+	<a href="+32 496 649 666"><i class="fa fa-phone-square"></i></a>
+	<a href="mailto:haryo@sukmawanto.com"><i class="fa fa-envelope-square"></i></a>
+	<a href="https://github.com/fragrag" target="_blank"><i class="fa fa-github-square"></i></a>
+</span>
 
