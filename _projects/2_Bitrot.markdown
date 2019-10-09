@@ -1,8 +1,8 @@
 ---
-layout: post
+layout: project
 title: Bitrot
 description: 
-img: /img/bitrot/grandma_finalframe.png
+img: /img/projects/bitrot/grandma_finalframe.png
 ---
 
 <p>2019, custom software, variable dimensions, portrait</p>
@@ -13,7 +13,7 @@ img: /img/bitrot/grandma_finalframe.png
 
 <div>
 {% for image in site.static_files %}
-  {% if image.path contains '/img/bitrot/' %}
+  {% if image.path contains '/img/projects/bitrot/' %}
     <img class="projectimage" src="{{ site.baseurl }}{{ image.path }}">
   {% endif %}
 {% endfor %}

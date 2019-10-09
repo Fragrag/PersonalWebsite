@@ -1,8 +1,8 @@
 ---
-layout: post
+layout: project
 title: My Mirror is a Pitiful Thing
 description: 
-img: /img/mymirror/koblen7-edit.jpg
+img: /img/projects/mymirror/koblen7-edit.jpg
 highlighter: none
 ---
 
@@ -12,7 +12,7 @@ highlighter: none
 
 <div>
 {% for image in site.static_files %}
-  {% if image.path contains '/img/mymirror/' %}
+  {% if image.path contains '/img/projects/mymirror/' %}
     <img class="projectimage" src="{{ site.baseurl }}{{ image.path }}">
   {% endif %}
 {% endfor %}
