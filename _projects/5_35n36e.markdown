@@ -1,0 +1,19 @@
+---
+layout: project
+title: 35.5056N 36.6013E
+year: 2018
+description: single channel; real-time projection
+img: /img/projects/35n36e/capture.png
+---
+
+We are looking at the live feed from a drone as it circles around a small compound consisting of an industrial building and a residential house. There is an uneasy sense of dread as we coldly orbit the target. What is this location and why is it being targeted? We assume the role of the military analyst, the distant observer who wields power over what will happen next.
+
+<hr>
+
+<div>
+{% for image in site.static_files %}
+  {% if image.path contains '/img/projects/35n36e/' %}
+    <img class="projectimage" src="{{ site.baseurl }}{{ image.path }}">
+  {% endif %}
+{% endfor %}
+</div>

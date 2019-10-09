@@ -3,7 +3,7 @@ layout: article
 title: Breaking News
 description: A post mortem of a failed game
 tech: (Unreal Engine 4, Substance Designer, Game Design)
-date: 2019-07-17 18:00:00
+date: 2019-03-18 18:00:00
 ---
 
 In the early months of 2018, a user posted a thread on the Unreal Engine reddit including a video of a high speed car chase. He proposed the idea of creating a small game that would recreate the experience and quickly collected a group of volunteer game developers, including myself. As is typical of such projects, it quickly fizzled out after a brief bout of drama and development was halted. A bit over a year later, I decided to visit this project again. This report won't focus on the drama, but will document my own processes and contributions, which has remained buried up to now but does include some achievements that I am rather proud of and would like to share.
