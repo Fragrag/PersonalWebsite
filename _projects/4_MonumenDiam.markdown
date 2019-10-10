@@ -4,7 +4,8 @@ title: Monumen Diam
 year: 2016-2017
 description: dual channel video projection, HD animation
 img: /img/projects/monumendiam/tugutani_still_099.jpg
-highlighter: none
+offsetx: -0%
+offsety: -5%
 ---
 This video installation shows 3D scans of two statues in Indonesia coupled with the testimony of a former political prisoner on the prison island Buru. The viewer orbits the faulty and fragmented depictions of the statues while they listen to the interview where I discover aspects of their lives that had never been shared before.
 
