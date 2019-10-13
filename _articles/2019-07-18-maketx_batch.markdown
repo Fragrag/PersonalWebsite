@@ -12,4 +12,4 @@ Depending on your software packet of choice, Arnold might create these .tx files
 
 To ease this process, I created a simple Powershell script. It goes through each file in a directory and subdirectory and creates a .tx file for every appropriate image file that it finds. Click on the link below for the GitHub repository, where you can download the script and view its source:
 
-[Get MakeTX_batch on GitHub](https://github.com/Fragrag/MakeTX_batch)
+[Get MakeTX_batch on GitHub](https://github.com/Fragrag/MakeTX_batch){: style="text-decoration:underline"}

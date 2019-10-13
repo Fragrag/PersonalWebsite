@@ -14,4 +14,4 @@ Since then I've learned my lesson. When doing such an installation, a Pi will au
 
 I've always thought about this common requested use for Pis and how surprisingly difficult it can be. How can this process be made simpler and idiot-proof while at the same time be more flexible. That's why I developed PiVideoLooper. What sets it apart is the front end interface. The user can start the player and stop it. He or she can reboot the pi if needed. New videos can be uploaded and unrequired videos deleted.
 
-[Get PiVideoLooper on GitHub](https://github.com/Fragrag/PiVideoLooper)
+[Get PiVideoLooper on GitHub](https://github.com/Fragrag/PiVideoLooper){: style="text-decoration:underline"}
