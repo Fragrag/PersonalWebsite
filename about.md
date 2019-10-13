@@ -6,7 +6,7 @@ permalink: /about/
 
 Haryo Sukmawanto is a visual artist and photographer based in Ghent, Belgium. 
 
-In 2017 he graduated from the Ghent Royal Academy of Fines Arts. Haryo has since then shifted towards a multimedial technological approach to photography. His work examines the digital image, down to its core as an array of ones and zeros, and its impact on perception, experience and memory.
+In 2017 he graduated from the Ghent Royal Academy of Fine Arts. Haryo has since then shifted towards a multimedial technological approach to photography. His work examines the digital image, down to its core as an array of ones and zeros, and its impact on perception, experience and memory.
 
 - **MAP #65: Notion of Nation.** Ghent, Belgium. June, 2017
 - **Where Does It Hurt?.** Ghent, Belgium. March, 2017
