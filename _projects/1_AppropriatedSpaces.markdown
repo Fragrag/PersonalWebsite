@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Appropriated Spaces
-year: 2014
+year: 2013
 description: 
 img: /img/projects/appropriatedspaces/appropriatedspaces-4.jpg
 offsetx: -65%
