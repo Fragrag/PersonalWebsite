@@ -5,7 +5,7 @@ year: 2019
 description: web application
 img: /img/projects/mugshot/thumbnail_cropped.png
 offsetx: -66%
-offsety: -15%
+offsety: -45%
 ---
 
 Facial recognition systems are starting to become commonplace in our modern day society. Many major cities have implemented such systems in their CCTV systems and are being ostensibly used to combat crime.
