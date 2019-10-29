@@ -2,7 +2,7 @@
 title: Haryo Sukmawanto
 email: Haryo@Sukmawanto.com
 description: > # this means to ignore newlines until "baseurl:"
-  A simple, whitespace, helvetica based portfolio theme.
+  Photographer, artist and developer
 baseurl:  # the subpath of your site, e.g. /blog/
 url:  # the base hostname & protocol for your site
 twitter_username: Fragrag
@@ -13,7 +13,6 @@ plugins: [jekyll-paginate]
 
 # Build settings
 markdown: kramdown
-
 highlighter: none
 
 # Pagination
@@ -27,5 +26,8 @@ collections:
   articles:
     output: true
     permalink: /articles/:path/
+  commercial:
+    output: true
+    permalink: /commercial/:path/
 
 
