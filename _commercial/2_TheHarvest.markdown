@@ -10,7 +10,7 @@ offsetx: -50%
 offsety: -0%
 ---
 
-In collaboration with the artist, I created a looping animation of a floating golden figurine in Unreal Engine 4 as well as general technical assistance.
+In collaboration with the artist, I created a looping animation of a floating golden figurine in Unreal Engine 4 as well as lending him general technical assistance.
 
 <hr>
 

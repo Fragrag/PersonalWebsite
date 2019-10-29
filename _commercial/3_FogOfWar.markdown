@@ -10,7 +10,7 @@ offsetx: -66%
 offsety: -10%
 ---
 
-I assisted the artist in setting up his scene, the lighting as well as giving general technical advice.
+I lent the artist technical assistance in setting up the scene and lighting.
 
 <hr>
 

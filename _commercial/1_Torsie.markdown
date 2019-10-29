@@ -4,7 +4,7 @@ title: Torsie
 year: 2018
 client: Renée Strikkeling
 client_url: https://graduation.schoolofarts.be/student/renee-strikkeling/
-description: video projection, HD animation
+description: web application
 img: /img/commercial/torsie/Torsie.JPG
 offsetx: -50%
 offsety: -0%
