@@ -3,13 +3,14 @@ layout: commercial
 title: The Harvest
 year: 2018-2019
 client: Flor Maesen
-description: 
+client_url: https://www.instagram.com/flormaesen/?hl=en
+description: video projection, HD animation
 img: /img/commercial/theharvest/190115_tded_42611.png
 offsetx: -50%
-offsety: -25%
+offsety: -0%
 ---
 
-HD Animation created in Unreal Engine 4 for visual artist <a style="text-decoration:underline" href="https://www.flormaesen.com/">Flor Maesen</a>
+In collaboration with the artist, I created a looping animation of a floating golden figurine in Unreal Engine 4 as well as general technical assistance.
 
 <hr>
 

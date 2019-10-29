@@ -5,12 +5,23 @@ title: commercial
 description: commercial work
 ---
 
-<ul class="post-list">
-{% for commercial in site.commercial reversed %}
-    <li>
-      <u><h3><a class="article-title" href="{{ commercial.url | prepend: site.baseurl }}">{{ commercial.title }}</a></h3></u>
-      <h4>{{ commercial.description }}</h4>
-      <h4>Client: {{ commercial.client }}</h4>
-    </li>
+{% for project in site.commercial reversed %}
+
+<div class="project ">
+    <div class="thumbnail">
+        <a href="{{ site.baseurl }}{{ project.url }}">
+        {% if project.img %}
+            <img class="thumbnail" style="left:{{ project.offsetx }} !important; top:{{ project.offsety }} !important;" src="{{ project.img }}"/>
+        {% else %}
+            <div class="thumbnail blankbox"></div>
+        {% endif %}    
+        <span>
+            <h2>{{ project.title }}</h2>
+            <br/>
+            <p>Client: {{ project.client }}</p>
+        </span>
+        </a>
+    </div>
+</div>
+
 {% endfor %}
-</ul>
