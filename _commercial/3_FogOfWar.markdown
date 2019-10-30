@@ -10,7 +10,7 @@ offsetx: -66%
 offsety: -10%
 ---
 
-I lent the artist technical assistance in setting up the scene and lighting.
+Together with the artist we set up the scene and lighting in 3ds max and Arnold.
 
 <hr>
 
@@ -18,6 +18,7 @@ I lent the artist technical assistance in setting up the scene and lighting.
 {% for image in site.static_files %}
     {% if image.path contains '/img/commercial/fogofwar' %}
         <img class="projectimage" src="{{ site.baseurl }}{{ image.path }}"/>
+        <div class="col three caption"> Xavier Mary, Fog of War (Aer), 2019. Courtesy the artist </div>
     {% endif %}
 {% endfor %}
 </div>
