@@ -6,6 +6,7 @@ description:
 img: /img/projects/ourgreencity/ourgreencity-8.jpg
 offsetx: -50%
 offsety: -25%
+type: photography art
 ---
 
 <hr>

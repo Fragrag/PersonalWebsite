@@ -6,6 +6,7 @@ description:
 img: /img/projects/waterworld/waterworld-2.jpg
 offsetx: -25%
 offsety: -30%
+type: photography art
 ---
 
 <p>Bodies of water are common destinations of leisure where people come to sport or relax. They are augmented with significant infrastructure to support these activities. These environments have usually been distorted to accommodate the demands of these activities, becoming approximations of what they represent.</p>

@@ -6,6 +6,7 @@ description: custom software, variable dimensions, portrait
 img: /img/projects/bitrot/grandma_finalframe.png
 offsetx: -90%
 offsety: -85%
+type: programming art
 ---
 
 In BITROT, we see two screens. On each one is a photograph of the artist's grandparents on their wedding day. On the left we see his grandfather step out of a car, on the right is his grandmother being held by the hand by presumably his great-grandmother.

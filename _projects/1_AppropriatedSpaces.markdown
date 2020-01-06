@@ -6,6 +6,7 @@ description:
 img: /img/projects/appropriatedspaces/appropriatedspaces-4.jpg
 offsetx: -65%
 offsety: -50%
+type: photography
 ---
 
 <hr>

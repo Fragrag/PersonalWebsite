@@ -116,6 +116,23 @@ li {
     }
 }
 
+ul#projectlist {
+    margin-bottom: -5px;
+    margin-top: -20px;
+    margin-right: 10px;
+    text-align: right;
+}
+
+ul#projectlist li {
+    display: inline;
+    color: #666;
+    font-size: 14px;
+  }
+
+ul#projectlist li:not(:first-child) {
+    margin-left: 2px;
+
+}
 
 
 /**

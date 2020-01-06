@@ -2,28 +2,17 @@
 layout: default
 ---
 
-{% for project in site.projects reversed %}
-
-{% if project.redirect %}
-<div class="project">
-    <div class="thumbnail">
-        <a href="{{ project.redirect }}" target="_blank">
-        {% if project.img %}
-            <img class="thumbnail" src="{{ project.img }}"/>
-        {% else %}
-            <div class="thumbnail blankbox"></div>
-        {% endif %}    
-        <span>
-            <h2>{{ project.title }}</h2>
-            <br/>
-            <p>{{ project.description }}</p>
-        </span>
-        </a>
-    </div>
+<div>
+    <ul id="projectlist">
+        <li>3D</li>
+        <li>Art</li>
+        <li>Photography</li>
+        <li>Programming</li>
+    </ul>  
 </div>
-{% else %}
 
-<div class="project ">
+{% for project in site.projects reversed %}
+<div class="project {{ project.type }}">
     <div class="thumbnail">
         <a href="{{ site.baseurl }}{{ project.url }}">
         {% if project.img %}
@@ -39,7 +28,4 @@ layout: default
         </a>
     </div>
 </div>
-
-{% endif %}
-
 {% endfor %}
