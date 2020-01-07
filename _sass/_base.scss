@@ -134,6 +134,37 @@ ul#projectlist li:not(:first-child) {
 
 }
 
+/**
+ * Buttons
+ */
+
+ .btn {
+    border: none;
+    outline: none;
+    background: none;
+    color: #666;
+    // padding: 12px 16px;
+    // background-color: #f1f1f1;
+    cursor: pointer;
+  }
+
+/* Add a light grey background on mouse-over */
+.btn:hover {
+    color: #333;
+  }
+
+.btn.active {
+    font-weight: bold;
+    }
+
+/**
+ * Filter list
+ */
+
+/* The "show" class is added to the filtered elements */
+.show {
+    display: block;
+  }
 
 /**
  * Headings
