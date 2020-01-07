@@ -1,13 +1,12 @@
 ---
-layout: page
+layout: default
 permalink: /commercial/
 title: commercial
 description: commercial work
 ---
 
 {% for project in site.commercial reversed %}
-
-<div class="project ">
+<div class="project">
     <div class="thumbnail">
         <a href="{{ site.baseurl }}{{ project.url }}">
         {% if project.img %}
@@ -23,5 +22,4 @@ description: commercial work
         </a>
     </div>
 </div>
-
 {% endfor %}
