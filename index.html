@@ -2,18 +2,19 @@
 layout: default
 ---
 
-<div>
+<div id="filterButtons">
     <ul id="projectlist">
         <button class="btn active" onclick="filterSelection('all')">All</button>
         <button class="btn" onclick="filterSelection('art')">Art</button>
         <button class="btn" onclick="filterSelection('photography')">Photography</button>
         <button class="btn" onclick="filterSelection('3d')">3D</button>
         <button class="btn" onclick="filterSelection('programming')">Programming</button>
+        <button class="btn" onclick="filterSelection('web')">Web</button>
     </ul>  
 </div>
 
 {% for project in site.projects reversed %}
-<div class="project {{ project.type }}">
+<div class="project filterDiv {{ project.type }}">
     <div class="thumbnail">
         <a href="{{ site.baseurl }}{{ project.url }}">
         {% if project.img %}
@@ -30,3 +31,5 @@ layout: default
     </div>
 </div>
 {% endfor %}
+
+<script src="/js/filterselection.js"></script>
