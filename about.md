@@ -25,3 +25,8 @@ Haryo is available to assist you with your 3D, photographic and other visual pro
 	<a href="https://github.com/fragrag" target="_blank"><i class="fa fa-github-square"></i></a>
 </span>
 
+<hr/>
+
+
+<sub><sup>This website is built using Jekyll. Learn more about Jekyll and how to operate it on [here](https://jekyllrb.com/).</sup></sub>
+<sub><sup>The website's theme uses a modified version of *folio, a theme designed by Lia Bogoev. More information is available on theme is available at its [Github repository](https://github.com/bogoli/-folio)</sup></sub>

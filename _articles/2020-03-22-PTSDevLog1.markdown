@@ -1,0 +1,50 @@
+---
+layout: article
+title: "Palestine Travel Simulator - Devlog #1"
+description: The first steps in Palestine Travel Simulator 
+tech: (Typescript, Phaser 3)
+date: 2020-03-22 12:00:00
+---
+
+# Lockdown 
+
+In the past week, as COVID-19 starts to rear its ugly head and the world starts to hunker down, my freelance work has started to dwindle. As a result I now find myself with a fair amount of free time. What better way is there than to spend that time learning something new and work on an idea that has been in my head for a while. 
+
+That idea is a serious game based on travel in Palestine called Palestine Travel Simulator*. This is an action point based game around the concept of travelling in a highly restrictive environment, such as it is in the West Bank. Gameplay-wise, it will be akin to a roguelike where you take on the role of a Palestinean taxi driver, truck driver or resident who needs to travel around the West Bank. You are limited by time, which are represented by action points. Checkpoints are schedule bound, and every turn an event may occur that will force the player to adjust his or her plans. 
+
+<sup><sub>*Creative I know. Subject to change</sub></sup>
+
+# Choosing an engine
+
+I intend this to be a more serious and politically critical game so it should be easily accessible by a large amount of people without requiring a hefty computer. The game should also be easily shared and linked. So the best way to achieve this would be to make a browser game.
+
+While Unity and Unreal Engine 4 support HTML5, utilising a 3D engine for a simple 2D turn-based game would be overkill as well as restrict its accessibility with a larger audience.
+
+So I turned towards the Javascript ecosphere and I discovered Phaser, an HTML5 game framework as it calls itself. It satisfied the requirements and wishes I had. It is still being actively developed on, it had decent documentation and at first glance it felt pretty logically constructed.
+
+Of course, my experience with Javascript is rather limited. My only foray into that language has been with the p5.js library which is not representative of Javascript as a whole. This is partly the reason why I decided to use Typescript rather than Javascript. Typescript is a superset of Javascript that adds static and strong typing to Javascript, and my reasoning was that this would help ease my transition from Python and UE4 Blueprints. This did add the challenge that wehen I consulted Phaser documentation, it was usually written in Javascript, meaning I had to reinterpret it into Typescript which at first was rather difficult.
+
+
+# Version 0.01
+
+With the basic concepts sketched and the engine chosen, it was time to start developing!
+
+For the first milestone, I set myself some simple goals. I needed to make a hex-based map, and a simple character. In developer terms, this meant I had to make four types of objects:
+- *HexTile*: Basic building block of the map. 
+- *HexGrid*: A basic grid of hex tiles.
+- *HexMap*: A map on which the HexGrid and the Character will be spawned and displayed. In Phaser terms this will be the scene.
+- *Character*: A simple character, with the ability to move from tile to tile
+
+To create the hex-based map, I found this [good tutorial by Juwal Bose](https://gamedevelopment.tutsplus.com/tutorials/creating-hexagonal-minesweeper--cms-28655) where they created a basic hexagonal minesweeper. I quickly discovered that this tutorial was actually written for Phaser 2, the previous version. So I had to convert it into Phaser 3, which took me a bit longer than I expected as there are some significant API changes, and also convert it into Typescript. This did give me some valuable experience and insights into these two environments and eventually I managed to get a result:
+
+![alt text]({{ site.baseurl }}/img/articles/ptsdevlog1/basichex.gif){: .projectimage}
+
+Now that I managed to get a basic hexagon tile map up and running, the next item in the list was to create a simple character that the player can control. For now, the character will simply jump to the selected hex but in the future I plan to add a pathfinding system that will theoretically find the most optimal route between two hexes. Of course there might be some obstacles in between... The tutorial by Bose briefly covered mouse interaction, as you can see in the image above. Once I understood how it worked, implementing a simple movement between hexes was a piece of cake:
+
+![alt text]({{ site.baseurl }}/img/articles/ptsdevlog1/characterjump.gif){: .projectimage}
+
+I'm pretty happy that I managed reach my first milestone after half a week, even if it was relatively humble. Phaser has pleasantly surprised me by not throwing a spanner in the works and being relatively straightforward. I'm certain my inexperience with 2D game design will eventually bite me in the ass but I'm cleaning and refactoring as I go along, after all, there is no true pressure of time.
+
+Next steps will be implementing different types of tiles, creating a custom map based on an actual location and possibly the most difficult one, implementing a pathfinding system for movement.
+
+Till next time, stay safe and healthy.
