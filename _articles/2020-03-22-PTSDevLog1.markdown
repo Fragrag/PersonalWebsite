@@ -2,7 +2,7 @@
 layout: article
 title: "Palestine Travel Simulator - Devlog #1"
 description: The first steps in Palestine Travel Simulator 
-tech: (Typescript, Phaser 3)
+tech: (Typescript, Phaser 3, Gamedev)
 date: 2020-03-22 12:00:00
 ---
 

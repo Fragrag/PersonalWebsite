@@ -47,6 +47,7 @@ $grey: rgb(90, 90, 90);
 $grey-color-dark: #333;   /* footer */
 $grey-color-light: #ddd;  /* navigation bar border */
 $text-color:     #666;
+$article-link-color:     #8099aa;
 
 /* Set theme color *************************/
 $theme-color: $grey;
@@ -197,16 +198,18 @@ a {
     }
     */
     &:hover {
-        color: $theme-color;
+        color: $text-color;
         text-decoration: none;
     }
 }
 
 article a {
-    color: $theme-color;
+    color: $article-link-color;
     font-weight: 100;
 
     &:hover {
+        color: $theme-color;
+
         text-decoration: none;
     }
 }

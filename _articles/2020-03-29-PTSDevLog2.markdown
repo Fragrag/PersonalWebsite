@@ -1,0 +1,47 @@
+---
+layout: article
+title: "Palestine Travel Simulator - Devlog #2"
+description: The first steps in Palestine Travel Simulator 
+tech: (Typescript, Phaser 3, Gamedev)
+date: 2020-03-29 12:00:00
+---
+
+# Week 2
+
+Another week of lockdown, another week of working on Palestine Travel Simulator alongside the less pleasant tasks of accounting, administration and other necessary things to survive the coming weeks.
+
+I finished last week with a very basic map with hexagon tiles and a simple character that can move around. For the next milestone I had three goals I wanted to achieve:
+- Implement different types of hexagon tiles, such as road, checkpoints and inaccessible.
+- Create a custom map based on an actual locale
+- Implement pathfinding based movement.
+
+# Hexagon types
+
+<sup><sub>The following segment features some boring technical backend talk so feel free to skip</sub></sup>
+
+Implementing this went relatively smoothly, though it did require some significant refactoring as I quickly realised that hexagon types wasn't as straightforward as I thought. Not in the least because it was a misnomer on my part. What I envisioned were rather hexagon attributes. Namely, a hexagon would be a type of terrain. On that terrain might be an asphalt or dirt road, each with its own characteristic. And on that road there might be a checkpoint. And each of those would alter the properties of the hex tile.
+
+At first, my `HexTile` class inherited from the `Phaser.GameObjects.Image` class, meaning it was a simple image with some functionality attached. To accomodate my new system, I had to rejiggle the whole structure and switch `HexTile` to a `Phaser.GameObjects.GameObject` class, the base class in Phaser and from what I can tell the equivalent of a `UObject` in Unreal Engine 4. 
+
+My `HexTile` is now a sort of container. By default it will have a terrain image object, and when required it will also spawn in a road image and a checkpoint image on top.
+
+# Custom map
+
+![alt text]({{ site.baseurl }}/img/articles/ptsdevlog2/TiledMap.PNG){: .projectimage}
+
+With that out of the way I can finally design a custom map. I based my first design on [this publication](https://www.btselem.org/sites/default/files/2019-10/201909_hebron_map_eng.pdf) from human rights organisation B'Tselem of Hebron City Center and restrictions imposed on Palestinean residents.
+
+Things I learned:
+- The map's current grid density is too high
+- I will need to add a lot more assets to make it feel like a city rather.
+- Maybe a hexagonal system might not be the best method, especially on a smaller scale like a city.
+
+# Pathfinding
+
+This part was a doozy to implement. First I looked for Javascript or Typescript libraries that I could simply add. However, none seemed to support hexagon movements. So I looked up several methods on pathfinding and I found a [comprehensive theoretical explanation and implementation of A* pathfinding](https://www.redblobgames.com/pathfinding/a-star/implementation.html). Only issue was it was written in Python, and despite my best attempts I struggled a lot with translating it to Typescript.
+
+So I looked back towards the existing library. From my research I knew that all I had to do was adjust the neighbor finding algorithm. So I implemented the [astar-typescript library](https://github.com/digitsensitive/astar-typescript) by _digitsensitive_ and altered its neighbor finding function. And lo and behold:
+
+![alt text]({{ site.baseurl }}/img/articles/ptsdevlog2/pathfinding1.gif){: .projectimage}
+
+It's still janky as hell, but after struggling the second half of last week on this, I'm happy to let it rest for the weekend and go at it again on monday.

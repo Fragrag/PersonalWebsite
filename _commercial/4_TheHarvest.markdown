@@ -3,7 +3,7 @@ layout: commercial
 title: The Harvest
 year: 2018-2019
 client: Flor Maesen
-client_url: https://www.instagram.com/flormaesen/?hl=en
+client_url: https://www.flormaesen.com/
 description: video projection, HD animation
 img: /img/commercial/theharvest/190115_tded_42611.png
 offsetx: -50%
