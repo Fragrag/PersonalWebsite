@@ -1,0 +1,52 @@
+---
+layout: article
+title: "Palestine Travel Simulator - Devlog #4"
+description: Interface and overhauling cities and checkpoints
+tech: (Typescript, Phaser 3, Gamedev)
+date: 2020-04-16 09:00:00
+---
+
+I remember reading that for a project, the first 95% of progress is achieved in the first 5% of the time, and the final 5% takes up the remaining 95% of time. And it has kinda felt like that the past weeks. I have spent so much time refining features, refactoring code and fixing bugs that it feels like I've barely made any progress and that can feel quite demotivating. That's why it can help to just look at your git log, and actually view every commit and take in just how much has been added.
+
+In this case, it is clear that there were three things that I focused on the past weeks: The map, checkpoints and user interface, each of which I will expand on in this devlog.
+
+# Map
+
+I decided to revamp the visuals for the map. I was thinking of giving a Google Maps-esque visual style to it, rather than relying on a repetitive tileset. 
+
+First I grabbed the West Bank's height data from a site called [terrain.party](https://www.terrain.party) which I have used before to grab heightmaps for Cities Skylines. Using Blender I created a relief height map:
+
+![alt text]({{ site.baseurl }}/img/articles/ptsdevlog4/relief.png)
+
+As raw Google Maps data is not readily available and I would have probably stumble on some weird licensing restrictions when using it, I opted instead to use data from OpenStreetMaps, a crowd sourced GIS dataset. After downloading the considerably sized raw data for the West Bank and figuring out how to work with it, I managed to export a map that displayed the borders and natural areas. That combined with the relief height map resulted in the following image:
+
+![alt text]({{ site.baseurl }}/img/articles/ptsdevlog4/map.png)
+
+# Checkpoints
+
+Another aspect that has been heavily reworked are checkpoints. While researching [B'Tselem's map](https://www.btselem.org/map), I stumbled on a manner to download the underlying raw data as a JSON file. In that JSON data, each checkpoint has an entry which includes its coordinates and background information.
+
+Using this data meant that the way checkpoints were created would have to be revamped as previously the map included a tilemap for checkpoints, similar to how the roads are created. Rather than relying on that tilemap, we would instead use the JSON data to create checkpoints now.
+
+First I created a new class for static locations such as cities and checkpoints called `CStatic`. This class adds extra functionality such as a label that when clicked on, will spawn a new panel containing information for the associated object. Then for checkpoints I extended that class and created `CFortification` that adds logic on how the checkpoint affects its underlying hex tile.
+
+I then cleaned up the old checkpoint system and implemented the new one. Now when the game starts, the game iterates through each entry in the raw JSON data and spawns a checkpoint at its coordinates with a label that when clicked on, shows the player its background information. An example of this interaction can be seen below in the section on the User Interface.
+
+Now my next step is to use the raw OpenStreetMap data to create a similar system but for cities and villages.
+
+Working with these raw datasets got me thinking that maybe in a future version, I could also revamp the whole underlying hexagonal system and instead utilise that OpenStreetMap data to create it rather than manually create a tilemap for roads and terrain.
+
+# User Interface
+
+The last major aspect I worked on was establishing a User Interface system for the game. Surprisingly enough Phaser3 does not seem to ship with a UI framework. That meant I would have to implement my own UI elements such as buttons and windows from scratch.
+
+While playtesting and messing around with the game, I decided on the following elements to implement first:
+- **Text Button**: A simple line of text that has a hover on state and an activate state. When clicked on, it should trigger an event. Basically a hyperlink.
+- **Image Button**: Similar to a text button, only with an image.
+- **Panels**: A panel is a text pop-up. This will be used to add background information on cities and checkpoints.
+
+![alt text]({{ site.baseurl }}/img/articles/ptsdevlog4/interface.gif){: .projectimage}
+
+# Next steps
+
+Well, that was it for now. I will continue refining the game but I think I've reached a stage where I can consider this a viable vertical slice. Now I will focus on creating a document to submit this game for a serious game grant from the Flemish Audiovisual Funds. I am also going to try and find organisations who might be interested in backing me and help publicise the game on release. If anyone wants to express any interest in this game, feel free to contact me. Details are available in the About page above.
