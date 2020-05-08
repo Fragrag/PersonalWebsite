@@ -3,7 +3,7 @@ layout: project
 title: Fighting Entropy
 year: 2020
 description: interactive video game
-img: /img/projects/fightingentropy/FightingEntropy.PNG
+img: /img/projects/fightingentropy/FightingEntropy.png
 offsetx: -50%
 offsety: -10%
 type: programming 3d gamedev
