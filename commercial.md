@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: projectlist
 permalink: /commercial/
 title: commercial
 description: commercial work
@@ -23,3 +23,4 @@ description: commercial work
     </div>
 </div>
 {% endfor %}
+

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+    <div class="page-content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </div>
+
+    <ul class="wrapper" id="clientlist">
+      <h2>Other previous clients:</h2>
+      <li>
+        <div class="clientimage">
+          <a href="https://www.alice-hr.be/">
+            <img src="{{ site.baseurl }}/img/commercial/clients/alice.png">
+            <p>Alice</p>
+          </a>
+        </div>
+      </li>
+      <li>
+        <div class="clientimage">
+          <a href="https://www.buro-lauwers.be/">
+            <img src="{{ site.baseurl }}/img/commercial/clients/lauwers.png">
+            <p>Accountantsburo Lauwers</p>
+          </a>
+        </div>
+      </li>
+      <li>
+        <div class="clientimage">
+          <a href="https://www.eenendertig.com/">
+            <img src="{{ site.baseurl }}/img/commercial/clients/eenendertig.png">
+            <p>31 Media</p>
+          </a>
+        </div>
+      </li>
+      <li>
+        <div class="clientimage">
+          <a href="https://lonelyalien.com/">
+            <img src="{{ site.baseurl }}/img/commercial/clients/lonelyalien.png">
+            <p>Lonely Alien</p>
+          </a>
+        </div>
+      </li>
+    </ul>  
+
+  </body>
+</html>
+

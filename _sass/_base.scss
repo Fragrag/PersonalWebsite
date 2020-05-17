@@ -137,8 +137,24 @@ ul#projectlist li {
 
 ul#projectlist li:not(:first-child) {
     margin-left: 2px;
-
 }
+
+ul#clientlist {
+    margin-right: auto;
+    margin-left: auto;
+    list-style: none;
+    padding: 0;
+}
+
+ul#clientlist li {
+    display: table-cell;
+}
+
+ul#clientlist h2 {
+    text-align: center;
+    padding-bottom: 20pt;
+}
+
 
 /**
  * Buttons
@@ -282,6 +298,30 @@ pre {
 .projectimage {
     margin: auto;
     width: 100%;
+}
+
+.clientimage {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.clientimage img {
+    width: 100%;
+    align-content: center;
+}
+
+.clientimage p {
+    text-align: center;
+    color: #666;
+}
+
+.clientimage:hover {
+    opacity: 0.75;
+}
+
+.clientimage:active {
+    opacity: 0.90;
 }
 
 /**

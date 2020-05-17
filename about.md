@@ -30,3 +30,4 @@ Haryo is available to assist you with your 3D, photographic and other visual pro
 
 <sub><sup>This website is built using Jekyll. Learn more about Jekyll and how to operate it on [here](https://jekyllrb.com/).</sup></sub>
 <sub><sup>The website's theme uses a modified version of *folio, a theme designed by Lia Bogoev. More information is available on theme is available at its [Github repository](https://github.com/bogoli/-folio)</sup></sub>
+<sub><sup>View this website's source code and development files on its [Github repository](https://github.com/Fragrag/PersonalWebsite).</sup></sub>
