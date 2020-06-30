@@ -10,6 +10,10 @@ offsetx: -50%
 offsety: -0%
 ---
 
+_"De ijzersterke video van Flor Maesen verkent in slow motion het vergulde lichaam van een sculptuur. Afwisselend zoomt de camera langzaam in en uit, waardoor het lichaam tegen de zwarte achtergrond de vorm kan aannemen van een landschap, of een zonsondergang. Het goud en de verstilde cameravoering doen ons moeiteloos geloven dat het om een mythisch personage gaat. Wie lang genoeg kijkt, begrijpt geleidelijk aan zijn gebogen houding, als een ultieme expressie van zelfliefde."_
+
+-Tamara Beheydt. ["Narcissus? bij Base-Alpha Gallery"](https://hart-magazine.be/expo/narcissus-bij-base-alpha-gallery), _HART_, 29 January 2020
+
 In collaboration with the artist we created a looping animation of a floating golden figurine in Unreal Engine 4 as well as lending him general technical assistance.
 
 <hr>
