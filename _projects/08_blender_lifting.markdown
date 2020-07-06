@@ -13,7 +13,7 @@ blender_lifting is a Blender addon that implements the functionality from Denis 
 
 This addon will take an image of a person, estimate its pose and create a rigged skeleton in Blender in that pose, as illustrated in the example below.
 
-[Source code and addon available on GitHub](https://github.com/Fragrag/blender_lifting){: style="text-decoration:underline"}
+[Source code and addon available on GitHub](https://github.com/haryo-s/blender_lifting){: style="text-decoration:underline"}
 
 <hr>
 

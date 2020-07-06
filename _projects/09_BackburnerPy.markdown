@@ -11,9 +11,9 @@ type: programming
 
 BackburnerPy is an unofficial Python API for Autodesk Backburner. It provides a programming interface with the Autodesk Backburner ecosphere. This can for example be utilised to create a dashboard webpage displaying the status of your renders and your renderfarm.
 
-[Source code and instructions available on GitHub](https://github.com/Fragrag/BackburnerPy){: style="text-decoration:underline"}
+[Source code and instructions available on GitHub](https://github.com/haryo-s/BackburnerPy){: style="text-decoration:underline"}
 
-[Documentation available here](https://fragrag.github.io/BackburnerPy/){: style="text-decoration:underline"}
+[Documentation available here](https://haryo-s.github.io/BackburnerPy/){: style="text-decoration:underline"}
 
 <hr>
 

@@ -14,7 +14,7 @@ Facial recognition systems are starting to become commonplace in our modern day 
 Mugshot.py simulates such a facial recognition system using dlib face recognition, which boasts an accuracy of 99.38%. Its facial encoding library was created with publicly accessible mugshot imagery and the charges associated with each image. The user submits an image that contains one or multiple faces. Mugshot.py will then return the closest match, the accuracy percentage and the charges associated with the match.
 
 [Try it out on Mugshot.py](https://www.mugshotpy.com/){: style="text-decoration:underline"}
-[Source code](https://github.com/Fragrag/Mugshot){: style="text-decoration:underline"}
+[Source code](https://github.com/haryo-s/Mugshot){: style="text-decoration:underline"}
 
 <hr>
 
