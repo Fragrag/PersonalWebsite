@@ -9,7 +9,7 @@ offsety: -20%
 type: programming 3d gamedev
 ---
 
-Cyber Waves is a site specific installation created especially for [BULP2020](https://bulp.org/), an event organised by [https://nerdlab.be/](Nerdlab) to artists to project their works into the public space following the Covid19 lockdowns.
+Cyber Waves is a site specific installation created especially for [BULP2020](https://bulp.org/), an event organised by [Nerdlab](https://nerdlab.be/) to artists to project their works into the public space following the Covid19 lockdowns.
 
 The site overlooks one of the main entrances by car into the city of Ghent and is regularily congested. Following the Covid19 measures and the transition to remote work for many workers, car traffic has declined significantly and the once busy road is now often deserted.
 

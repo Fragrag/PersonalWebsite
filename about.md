@@ -12,7 +12,7 @@ Since 2015 he has been a member of the production team for visual artist David C
 
 Haryo is available to assist you with your 3D, photographic and other visual projects. Contact him on one of the channels listed at the bottom.
 
-- **BULP2020.** Ghent, Belgium. October, 2020
+- **BULP2020.** Ghent, Belgium. November, 2020
 - **Obskuur Ghent Film Festival 2020 Autumn Edition.** Ghent, Belgium. October, 2020
 - **MAP #65: Notion of Nation.** Ghent, Belgium. June, 2017
 - **Where Does It Hurt?.** Ghent, Belgium. March, 2017
