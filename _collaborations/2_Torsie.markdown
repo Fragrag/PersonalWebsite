@@ -1,11 +1,11 @@
 ---
-layout: commercial
+layout: collaborations
 title: Torsie
 year: 2018
-client: Renée Strikkeling
-client_url: https://graduation.schoolofarts.be/student/renee-strikkeling/
+partner: Renée Strikkeling
+partner_url: https://graduation.schoolofarts.be/student/renee-strikkeling/
 description: web application
-img: /img/commercial/torsie/Torsie.JPG
+img: /img/collaborations/torsie/Torsie.JPG
 offsetx: -50%
 offsety: -0%
 ---
@@ -18,7 +18,7 @@ Using Javascript and the p5.js library I created a website that displays a varie
 
 <div>
 {% for image in site.static_files %}
-    {% if image.path contains '/img/commercial/torsie' %}
+    {% if image.path contains '/img/collaborations/torsie' %}
         <img class="projectimage" src="{{ site.baseurl }}{{ image.path }}"/>
     {% endif %}
 {% endfor %}

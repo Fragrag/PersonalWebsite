@@ -1,11 +1,11 @@
 ---
 layout: projectlist
-permalink: /commercial/
-title: commercial
-description: commercial work
+permalink: /collaborations/
+title: collaborations
+description: collaborations and commercial work
 ---
 
-{% for project in site.commercial reversed %}
+{% for project in site.collaborations reversed %}
 <div class="project">
     <div class="thumbnail">
         <a href="{{ site.baseurl }}{{ project.url }}">
@@ -17,7 +17,7 @@ description: commercial work
         <span>
             <h2>{{ project.title }}</h2>
             <br/>
-            <p>Client: {{ project.client }}</p>
+            <p>Partner: {{ project.partner }}</p>
         </span>
         </a>
     </div>

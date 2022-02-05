@@ -1,11 +1,11 @@
 ---
-layout: commercial
+layout: collaborations
 title: Olympia
 year: 2016-20xx
-client: David Claerbout
-client_url: https://davidclaerbout.com/Olympia-The-real-time-disintegration-into-ruins-of-the-Berlin-Olympic
+partner: David Claerbout
+partner_url: https://davidclaerbout.com/Olympia-The-real-time-disintegration-into-ruins-of-the-Berlin-Olympic
 description: two channel real-time projection, color, silent, HD animation, 1000 years
-img: /img/commercial/olympia/Olympia.jpg
+img: /img/collaborations/olympia/Olympia.jpg
 offsetx: -50%
 offsety: -0%
 ---
@@ -19,7 +19,7 @@ One of my main tasks as a technical assistant for acclaimed visual artist David 
 
 <div>
 {% for image in site.static_files %}
-    {% if image.path contains '/img/commercial/olympia' %}
+    {% if image.path contains '/img/collaborations/olympia' %}
         <img class="projectimage" src="{{ site.baseurl }}{{ image.path }}"/>
     {% endif %}
 {% endfor %}

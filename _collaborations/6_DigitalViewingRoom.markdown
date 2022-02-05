@@ -1,11 +1,11 @@
 ---
-layout: commercial
+layout: collaborations
 title: Digital Viewing Room
 year: 2019
-client: Galerie Micheline Szwajcer
-client_url: https://www.gms.be/
+partner: Galerie Micheline Szwajcer
+partner_url: https://www.gms.be/
 description: Web, virtual environment
-img: /img/commercial/digitalviewingroom/dvr_still.jpg
+img: /img/collaborations/digitalviewingroom/dvr_still.jpg
 offsetx: -66%
 offsety: -10%
 ---
@@ -22,7 +22,7 @@ The viewing room is available for viewing until July 17, 2020 and can be accesse
 
 <div>
 {% for image in site.static_files %}
-    {% if image.path contains '/img/commercial/digitalviewingroom' %}
+    {% if image.path contains '/img/collaborations/digitalviewingroom' %}
         <img class="projectimage" src="{{ site.baseurl }}{{ image.path }}"/>
         <div class="col three caption"> David Claerbout, the "confetti" piece, 2015-2018. </div>
     {% endif %}

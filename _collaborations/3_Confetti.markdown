@@ -1,11 +1,11 @@
 ---
-layout: commercial
+layout: collaborations
 title: The 'confetti' piece
 year: 2018
-client: David Claerbout
-client_url: https://davidclaerbout.com/the-confetti-piece-2015-2018
+partner: David Claerbout
+partner_url: https://davidclaerbout.com/the-confetti-piece-2015-2018
 description: double channel video projection, 3D animation, silent, color, 18 min. 25 sec.
-img: /img/commercial/confetti/confetti.jpg
+img: /img/collaborations/confetti/confetti.jpg
 offsetx: -50%
 offsety: -0%
 ---
@@ -19,7 +19,7 @@ As a member of the production team for _the 'confetti' piece_, my responsibiliti
 
 <div>
 {% for image in site.static_files %}
-    {% if image.path contains '/img/commercial/confetti' %}
+    {% if image.path contains '/img/collaborations/confetti' %}
         <img class="projectimage" src="{{ site.baseurl }}{{ image.path }}"/>
     {% endif %}
 {% endfor %}

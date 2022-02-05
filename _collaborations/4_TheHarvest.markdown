@@ -1,11 +1,11 @@
 ---
-layout: commercial
+layout: collaborations
 title: The Harvest
 year: 2018-2019
-client: Flor Maesen
-client_url: https://www.flormaesen.com/
+partner: Flor Maesen
+partner_url: https://www.flormaesen.com/
 description: video projection, HD animation
-img: /img/commercial/theharvest/190115_tded_42611.png
+img: /img/collaborations/theharvest/190115_tded_42611.png
 offsetx: -50%
 offsety: -0%
 ---
@@ -20,7 +20,7 @@ In collaboration with the artist we created a looping animation of a floating go
 
 <div>
 {% for image in site.static_files %}
-    {% if image.path contains '/img/commercial/theharvest' %}
+    {% if image.path contains '/img/collaborations/theharvest' %}
         <img class="projectimage" src="{{ site.baseurl }}{{ image.path }}"/>
         <div class="col three caption"> Flor Maesen, The Harvest, 2019. Courtesy the artist </div>
     {% endif %}
