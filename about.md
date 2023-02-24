@@ -12,12 +12,18 @@ He was a member of the production team for visual artist [David Claerbout](https
 
 Haryo is available to assist you with your 3D, photographic and other visual projects. Contact him on one of the channels listed at the bottom.
 
+# Exhibitions:
+- **DesignFest Makertrail & Maker Faire Gent** Hosted by Nerdlab, Ghent, Belgium. April, 2022
 - **BULP2020.** Ghent, Belgium. November, 2020
 - **Obskuur Ghent Film Festival 2020 Autumn Edition.** Ghent, Belgium. October, 2020
 - **MAP #65: Notion of Nation.** Ghent, Belgium. June, 2017
 - **Where Does It Hurt?.** Ghent, Belgium. March, 2017
 - **We Hate It When Our Friends Become Successful.** Ghent, Belgium. January, 2017
 - **Flux: The Full Picture/Het Volle Beeld.** Antwerp, Belgium, 2010
+
+# Public appearances:
+- **Presentator for All Screen's A Stage** Hosted by Nerdlab and Kopergietery, Ghent, Belgium. April, 2023
+- **Mentor for Immersive Sound hacXathon: 24 Hours of Deep Listening** Hosted by XRT and Consouling, Ghent, Belgium. October 2021
 
 <hr/>
 
