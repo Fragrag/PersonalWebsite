@@ -17,7 +17,7 @@ description: collaborations and commercial work
         <span>
             <h2>{{ project.title }}</h2>
             <br/>
-            <p>Partner: {{ project.partner }}</p>
+            <p>Partner: {{ project.partner }} ({{ project.year }})</p>
         </span>
         </a>
     </div>
